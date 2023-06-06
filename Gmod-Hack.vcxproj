@@ -19,7 +19,98 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="deps\imgui\imgui.cpp" />
+    <ClCompile Include="deps\imgui\imgui_demo.cpp" />
+    <ClCompile Include="deps\imgui\imgui_draw.cpp" />
+    <ClCompile Include="deps\imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="deps\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="deps\imgui\imgui_tables.cpp" />
+    <ClCompile Include="deps\imgui\imgui_widgets.cpp" />
     <ClCompile Include="src\dllmain.cpp" />
+    <ClCompile Include="src\features\menu\menu.cpp" />
+    <ClCompile Include="src\globals.cpp" />
+    <ClCompile Include="src\hack_core.cpp" />
+    <ClCompile Include="src\hook\hooks\client\create_move_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\client\read_pixels_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\client\render_view_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\client\view_render_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\directx\end_scene_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\directx\reset_hook.cpp" />
+    <ClCompile Include="src\hook\hooks\surface\i_surface_hooks.cpp" />
+    <ClCompile Include="src\hook\hooks_manager.cpp" />
+    <ClCompile Include="src\interfaces.cpp" />
+    <ClCompile Include="src\math\math.cpp" />
+    <ClCompile Include="src\math\matrix.cpp" />
+    <ClCompile Include="src\math\vector.cpp" />
+    <ClCompile Include="src\math\vector2d.cpp" />
+    <ClCompile Include="src\math\vector4d.cpp" />
+    <ClCompile Include="src\tools\logger.cpp" />
+    <ClCompile Include="src\tools\mem_tools.cpp" />
+    <ClCompile Include="src\tools\netvars\netvars.cpp" />
+    <ClCompile Include="src\tools\render_tool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deps\imgui\imconfig.h" />
+    <ClInclude Include="deps\imgui\imgui.h" />
+    <ClInclude Include="deps\imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="deps\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="deps\imgui\imgui_internal.h" />
+    <ClInclude Include="deps\imgui\imstb_rectpack.h" />
+    <ClInclude Include="deps\imgui\imstb_textedit.h" />
+    <ClInclude Include="deps\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\features\menu\menu.h" />
+    <ClInclude Include="src\game_sdk\classes\c_client_class.h" />
+    <ClInclude Include="src\game_sdk\classes\c_user_cmd.h" />
+    <ClInclude Include="src\game_sdk\classes\c_utl_memory.h" />
+    <ClInclude Include="src\game_sdk\classes\c_utl_vector.h" />
+    <ClInclude Include="src\game_sdk\classes\c_view_setup.h" />
+    <ClInclude Include="src\game_sdk\classes\platform.h" />
+    <ClInclude Include="src\game_sdk\entitys\c_base_entity.h" />
+    <ClInclude Include="src\game_sdk\entitys\c_base_player.h" />
+    <ClInclude Include="src\game_sdk\entitys\i_client_entity.h" />
+    <ClInclude Include="src\game_sdk\entitys\weapons.h" />
+    <ClInclude Include="src\game_sdk\interfaces\client\i_client_mode.h" />
+    <ClInclude Include="src\game_sdk\interfaces\client\i_view_render.h" />
+    <ClInclude Include="src\game_sdk\interfaces\client\v_client.h" />
+    <ClInclude Include="src\game_sdk\interfaces\client\v_client_entity_list.h" />
+    <ClInclude Include="src\game_sdk\interfaces\engine\iv_model_render.h" />
+    <ClInclude Include="src\game_sdk\interfaces\engine\i_engine_trace.h" />
+    <ClInclude Include="src\game_sdk\interfaces\engine\i_render.h" />
+    <ClInclude Include="src\game_sdk\interfaces\engine\v_engine_client.h" />
+    <ClInclude Include="src\game_sdk\interfaces\engine\v_engine_render_view.h" />
+    <ClInclude Include="src\game_sdk\interfaces\include_interfaces.h" />
+    <ClInclude Include="src\game_sdk\interfaces\lua\lua.h" />
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_material.h" />
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_material_system.h" />
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_mat_render_context.h" />
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\material_system_staff.h" />
+    <ClInclude Include="src\game_sdk\interfaces\surface\i_surface.h" />
+    <ClInclude Include="src\game_sdk\network\recv_props.h" />
+    <ClInclude Include="src\globals.h" />
+    <ClInclude Include="src\hack_core.h" />
+    <ClInclude Include="src\hook\hooks\client\create_move_hook.h" />
+    <ClInclude Include="src\hook\hooks\client\read_pixels_hook.h" />
+    <ClInclude Include="src\hook\hooks\client\render_view_hook.h" />
+    <ClInclude Include="src\hook\hooks\client\view_render_hook.h" />
+    <ClInclude Include="src\hook\hooks\directx\end_scene_hook.h" />
+    <ClInclude Include="src\hook\hooks\directx\reset_hook.h" />
+    <ClInclude Include="src\hook\hooks\include_all.h" />
+    <ClInclude Include="src\hook\hooks\panel\paint_treverse_hook.h" />
+    <ClInclude Include="src\hook\hooks\surface\i_surface_hooks.h" />
+    <ClInclude Include="src\hook\hooks_manager.h" />
+    <ClInclude Include="src\interfaces.h" />
+    <ClInclude Include="src\math\math.h" />
+    <ClInclude Include="src\math\matrix.h" />
+    <ClInclude Include="src\math\qangle.h" />
+    <ClInclude Include="src\math\vector.h" />
+    <ClInclude Include="src\math\vector2d.h" />
+    <ClInclude Include="src\math\vector4d.h" />
+    <ClInclude Include="src\tools\color.h" />
+    <ClInclude Include="src\tools\fnv.h" />
+    <ClInclude Include="src\tools\logger.h" />
+    <ClInclude Include="src\tools\mem_tools.h" />
+    <ClInclude Include="src\tools\netvars\netvars.h" />
+    <ClInclude Include="src\tools\render_tool.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -74,8 +165,9 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\mhlsj\Documents\Projects\Gmod-Hack\deps;C:\Users\mhlsj\Documents\Projects\Gmod-Hack\src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\mhlsj\Documents\Projects\Gmod-Hack\deps\minhook\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

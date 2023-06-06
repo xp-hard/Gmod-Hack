@@ -13,10 +13,375 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\features">
+      <UniqueIdentifier>{775cee56-66ab-431a-88dd-ad5cd9b7da88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\features\menu">
+      <UniqueIdentifier>{85bbec86-51f4-4d8f-8a02-4f805503d5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\features">
+      <UniqueIdentifier>{99fdfd3d-cab7-4fa4-ad3c-285451eb0182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\features\menu">
+      <UniqueIdentifier>{5bb6d312-0630-4b1e-8847-46d3a6eb88ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk">
+      <UniqueIdentifier>{2cb2070e-913f-488e-a9a9-f1ab77a1c222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\classes">
+      <UniqueIdentifier>{a148d24a-3ec9-4b31-bfc8-14a06259eefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\entitys">
+      <UniqueIdentifier>{9193bc83-6f9e-4ba6-944a-076cd2b3572d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\network">
+      <UniqueIdentifier>{ac77cd7d-54a7-45f9-ac89-17ffd5db5f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces">
+      <UniqueIdentifier>{e8dbd7fe-d600-4577-a65d-0a21b1b57718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces\client">
+      <UniqueIdentifier>{46ce7a0b-2ab4-47c6-adcc-4f9b779fd442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces\engine">
+      <UniqueIdentifier>{0478cec6-92e6-4bed-9779-591b47227ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces\lua">
+      <UniqueIdentifier>{47b252f9-fcbb-4694-899c-76654703e197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces\material_system">
+      <UniqueIdentifier>{be112a55-aa6a-4d39-8615-2474cfeaa99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\sdk\interfaces\surface">
+      <UniqueIdentifier>{ccd7f034-9f44-4827-808f-f57b9f9a2576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook">
+      <UniqueIdentifier>{bf01d29a-0135-4733-a12f-0e45b2c675bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook">
+      <UniqueIdentifier>{d158c416-d14d-4af9-9fe0-7493e5014884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hooks">
+      <UniqueIdentifier>{a885eff5-2c96-41f0-83a5-3872870c2ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook\hooks">
+      <UniqueIdentifier>{9a45bf1e-338d-4b22-8810-8f7c96687beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook\hooks\client">
+      <UniqueIdentifier>{141235d7-f679-482f-9cf5-469372114763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hooks\client">
+      <UniqueIdentifier>{48b9ea3f-84e2-4f2e-9589-9f601992febb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hooks\directx">
+      <UniqueIdentifier>{ec0ef739-d0f2-406e-aee2-c8e88285bf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook\hooks\directx">
+      <UniqueIdentifier>{afef4452-8616-4760-b964-f57649baa92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook\hooks\panel">
+      <UniqueIdentifier>{ee5e8d12-7095-42c2-bf94-665ee761861e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\hook\hooks\surface">
+      <UniqueIdentifier>{5a4c70c1-d666-4658-a462-d5544e0931dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hooks\surface">
+      <UniqueIdentifier>{b8c11e5f-a9db-484d-931a-621032712090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\math">
+      <UniqueIdentifier>{f84a989b-ce42-4224-89ee-e73edb7aed2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\math">
+      <UniqueIdentifier>{703cdeda-5329-499c-8ca1-94be07f346cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\tools">
+      <UniqueIdentifier>{34bb4c25-f051-4e0c-9d0b-9c9dd563ada7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\tools">
+      <UniqueIdentifier>{2697da7d-f79c-4201-b2bb-22a657390397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\tools\netvars">
+      <UniqueIdentifier>{5ee63a3a-23e2-4372-902c-f85f1370a3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\tools\netvars">
+      <UniqueIdentifier>{7534804e-90ad-4da3-8625-ac0954c9941f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\imgui">
+      <UniqueIdentifier>{7c499118-79a2-4847-a2ec-5748d2df12be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\dllmain.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\globals.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hack_core.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interfaces.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\menu\menu.cpp">
+      <Filter>Исходные файлы\features\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks_manager.cpp">
+      <Filter>Исходные файлы\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\client\view_render_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\client\create_move_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\client\read_pixels_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\client\render_view_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\directx\reset_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\directx\end_scene_hook.cpp">
+      <Filter>Исходные файлы\hook\hooks\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\hooks\surface\i_surface_hooks.cpp">
+      <Filter>Исходные файлы\hook\hooks\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\matrix.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector2d.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector4d.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\math.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\render_tool.cpp">
+      <Filter>Исходные файлы\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\logger.cpp">
+      <Filter>Исходные файлы\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\mem_tools.cpp">
+      <Filter>Исходные файлы\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\netvars\netvars.cpp">
+      <Filter>Исходные файлы\tools\netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_tables.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\globals.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hack_core.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\menu\menu.h">
+      <Filter>Файлы заголовков\features\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_client_class.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_user_cmd.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_utl_memory.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_utl_vector.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_view_setup.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\platform.h">
+      <Filter>Файлы заголовков\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\c_base_entity.h">
+      <Filter>Файлы заголовков\sdk\entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\c_base_player.h">
+      <Filter>Файлы заголовков\sdk\entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\i_client_entity.h">
+      <Filter>Файлы заголовков\sdk\entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\weapons.h">
+      <Filter>Файлы заголовков\sdk\entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\network\recv_props.h">
+      <Filter>Файлы заголовков\sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\include_interfaces.h">
+      <Filter>Файлы заголовков\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\client\i_client_mode.h">
+      <Filter>Файлы заголовков\sdk\interfaces\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\client\i_view_render.h">
+      <Filter>Файлы заголовков\sdk\interfaces\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\client\v_client.h">
+      <Filter>Файлы заголовков\sdk\interfaces\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\client\v_client_entity_list.h">
+      <Filter>Файлы заголовков\sdk\interfaces\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\engine\iv_model_render.h">
+      <Filter>Файлы заголовков\sdk\interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\engine\i_engine_trace.h">
+      <Filter>Файлы заголовков\sdk\interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\engine\i_render.h">
+      <Filter>Файлы заголовков\sdk\interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\engine\v_engine_client.h">
+      <Filter>Файлы заголовков\sdk\interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\engine\v_engine_render_view.h">
+      <Filter>Файлы заголовков\sdk\interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\lua\lua.h">
+      <Filter>Файлы заголовков\sdk\interfaces\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_material.h">
+      <Filter>Файлы заголовков\sdk\interfaces\material_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_material_system.h">
+      <Filter>Файлы заголовков\sdk\interfaces\material_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\i_mat_render_context.h">
+      <Filter>Файлы заголовков\sdk\interfaces\material_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\materialsystem\material_system_staff.h">
+      <Filter>Файлы заголовков\sdk\interfaces\material_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\interfaces\surface\i_surface.h">
+      <Filter>Файлы заголовков\sdk\interfaces\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks_manager.h">
+      <Filter>Файлы заголовков\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\include_all.h">
+      <Filter>Файлы заголовков\hook\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\client\create_move_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\client\read_pixels_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\client\render_view_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\client\view_render_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\directx\end_scene_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\directx\reset_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\panel\paint_treverse_hook.h">
+      <Filter>Файлы заголовков\hook\hooks\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\hooks\surface\i_surface_hooks.h">
+      <Filter>Файлы заголовков\hook\hooks\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\math.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\matrix.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\qangle.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector2d.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector4d.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\color.h">
+      <Filter>Файлы заголовков\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\fnv.h">
+      <Filter>Файлы заголовков\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\logger.h">
+      <Filter>Файлы заголовков\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\mem_tools.h">
+      <Filter>Файлы заголовков\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\render_tool.h">
+      <Filter>Файлы заголовков\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\netvars\netvars.h">
+      <Filter>Файлы заголовков\tools\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imconfig.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_impl_dx9.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_impl_win32.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_internal.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_rectpack.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_textedit.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_truetype.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
