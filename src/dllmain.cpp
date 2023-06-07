@@ -14,10 +14,7 @@ void init(HINSTANCE dll) {
 }
 
 BOOL WINAPI DllMain(HINSTANCE dll, DWORD reason, LPVOID lp_reserved) {
-	DisableThreadLibraryCalls(dll);
-
 	if (reason == DLL_PROCESS_ATTACH && beforeInject(dll)) {
-		DisableThreadLibraryCalls(dll);
 		std::thread(init, dll).detach();
 	}
 

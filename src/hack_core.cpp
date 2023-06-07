@@ -16,9 +16,9 @@ void CHackCore::init(void* dll)
 
 //#ifdef _DEBUG
 	AllocConsole();
-	freopen("CONOUT$", "wb", stdout);
-	freopen("CONOUT$", "wb", stderr);
-	freopen("CONIN$", "rb", stdin);
+	(void) freopen("CONOUT$", "wb", stdout);
+	(void) freopen("CONOUT$", "wb", stderr);
+	(void) freopen("CONIN$", "rb", stdin);
 //#endif
 
 	Interfaces->init();
